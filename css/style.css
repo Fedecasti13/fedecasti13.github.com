@@ -5,9 +5,10 @@
     position: absolute;
     top: 30px;
     left: 30px;
-    background-color: aliceblue;
+    background-color: lightskyblue;
     width: 110px;
     height: 110px;
+    border-radius: 10%;
 }
 #logo2{
     background-image: url(../img/mc_logo.svg);
@@ -16,9 +17,10 @@
     position: absolute;
     top: 30px;
     right: 30px;
-    background-color: aliceblue;
+    background-color: lightskyblue;
     width: 110px;
     height: 110px;
+    border-radius: 10%;
 }
 body {
     display: flex;
@@ -32,7 +34,7 @@ body {
 
 #Paragrafo {
     font-family: 'Lora', serif;
-    font-size: 1.2em;
+    font-size: 1.2vw;
     position: absolute;
     top: 25%;
 }
@@ -49,6 +51,7 @@ h1 {
     margin: 0;
     font-family: Minecraft;
     font-size: 10vw;
+    color:green;
 }
 div {
     padding: 0;
@@ -57,4 +60,8 @@ div {
     bottom: 0%;
     font-family: Doom;
     font-size: 20vw;
+    color: red;
+}
+html {
+    background-color: rgb(149, 241, 241);
 }
