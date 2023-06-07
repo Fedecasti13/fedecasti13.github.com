@@ -27,7 +27,6 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -53,15 +52,26 @@ h1 {
     font-size: 10vw;
     color:green;
 }
-div {
+#classe {
     padding: 0;
     margin: 0;
-    position: absolute;
+    position: fixed;
     bottom: 0%;
+    right: 5%;
     font-family: Doom;
-    font-size: 20vw;
+    font-size: 12vw;
+    color: red;
+}
+#AnnoScolastico {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0%;
+    left: 5%;
+    font-family: Doom;
+    font-size: 7vw;
     color: red;
 }
 html {
-    background-color: rgb(149, 241, 241);
+    background-color: rgba(20, 228, 218, 0.438);
 }
