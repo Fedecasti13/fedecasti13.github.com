@@ -31,6 +31,10 @@ body {
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 #Paragrafo {
     font-family: 'Lora', serif;
     font-size: 1.2vw;
